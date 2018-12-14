@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the php-lisp/php-lisp.
+ * This file is part of the samedreams/just-for-fun-ai.
  *
  * @Link     https://github.com/samedreams/just-for-fun-ai
  * @Document https://github.com/samedreams/just-for-fun-ai/blob/master/README.md
