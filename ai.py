@@ -1,7 +1,6 @@
+replaceWords = (('吗',''),('?','!'),('？','！'))
 while True:
     sc = input('ME:')
-    strOut = sc
-    strOut = strOut.replace('吗','')
-    strOut = strOut.replace('?','!')
-    strOut = strOut.replace('？','！')
-    print('AI:'+strOut)
+    for replaceWord in replaceWords:
+        sc = sc.replace(replaceWord[0],replaceWord[1])
+    print('AI:'+sc)
